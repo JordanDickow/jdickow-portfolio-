@@ -1,0 +1,59 @@
+/*  General */
+body {
+    margin: 0;
+    background: #000000;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background: #32CD32;
+
+
+}
+.nav-bar {
+
+}
+/* Nav Bar Styling */
+nav {
+    height: 40px;
+  width: 100%;
+  margin-bottom: 100px;
+  position: fixed;
+  top: 0;
+  border-bottom: none;
+}
+
+nav li {
+    display: inline;
+    float: left;
+    padding: 10px;
+    float: right;
+
+
+
+}
+
+nav a {
+    display: inline-block;
+    text-align: center;
+    text-decoration:  none;
+    float: left;
+    color: #ffffff
+
+
+}
+
+nav li:first-child .left-align {
+    float: left;
+
+}
+
+nav a {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 0;
+  text-decoration: none;
+
+}
